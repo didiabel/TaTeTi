@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+.nav{
+  height: 100px;
+  width: 70px;
+}
+@media only screen and (max-width: 2000px){
+    * {
+      font-family: 'Oswald', sans-serif;
+            font-size: 22px;
+          color: rgb(84, 216, 106);
+    }
+    .startUpBox{
+      background-color: rgb(0, 0, 0, 0.6);
+      
+    }
+    .app{
+      background-image: url('../../img/Sintitulo(3).jpg');
+        background-size: 125%;
+    }
+    /*Tablets [601px -> 1200px]*/
+    .app{
+        background-color: rgb(46, 46, 187);
+    }
+    .startup{
+        height: 650px;
+      width: 653px;
+    }
+    .celda {
+      height: 120px;
+      width: 120px;
+    }
+    input{
+        width: 250px;
+    }
+    .celda h1{
+      font-size: 100px;
+    }
+    .caja {
+      height: 360px;
+      width: 363px;
+    }
+    .colorx {
+      color: rgb(100, 179, 69);
+    }
+    .coloro {
+      color: rgb(177, 68, 68);
+    }
+    .icons {
+      size: 40px;
+    }
+    .confeti{
+        height: 100%;
+        width: 100%;
+    }
+    .cajaModal {
+        height: 150px;
+        width: 153px;
+      }
+      .celdaModal {
+        height: 50px;
+        width: 50px;
+      }
+}
+@media only screen and (max-width: 655px){
+    * {
+            font-size: 16px;
+    }
+    .app{
+        background-color: rgb(46, 46, 187);
+    }
+    /*Big smartphones [426px -> 600px]*/
+    .startup{
+        margin-top: -200px;
+        height: 400px;
+        width: 403px;
+    }
+    .celda {
+      height: 100px;
+      width: 100px;
+    }
+    input{
+        width: 150px;
+    }
+    .celda h1 {
+      font-size: 50px;
+    }
+    .caja {
+      height: 300px;
+      width: 303px;
+    }
+    .colorx {
+      color: rgb(100, 179, 69);
+    }
+    .coloro {
+      color: rgb(177, 68, 68);
+    }
+    .icons {
+      size: 10px;
+    }
+    .confeti{
+        height: 100%;
+        width: 100%;
+    }
+    .cajaModal {
+        height: 150px;
+        width: 153px;
+      }
+      .celdaModal {
+        height: 50px;
+        width: 50px;
+      }
+      .modal{
+          width: 80%!important;
+      }
+}
+@media only screen and (max-width: 425px){
+    * {
+            font-size: 13px;
+    }
+    .app{
+        background-color: rgb(46, 46, 187);
+    }
+	/*Small smartphones [325px -> 425px]*/
+    .startup{
+        margin-top: -200px;
+        height: 300px;
+        width: 303px;
+    }
+    .celda {
+      height: 50px;
+      width: 50px;
+    }
+    input{
+        width: 90px;
+    }
+    .celda h1 {
+      font-size: 20px;
+    }
+    .caja {
+      height: 150px;
+      width: 153px;
+    }
+    .colorx {
+      color: rgb(100, 179, 69);
+    }
+    .coloro {
+      color: rgb(177, 68, 68);
+    }
+    .icons {
+      size: 10px;
+    }
+    .confeti{
+        height: 100%;
+        width: 100%;
+    }
+    .cajaModal {
+        height: 150px;
+        width: 153px;
+      }
+      .celdaModal {
+        height: 50px;
+        width: 50px;
+      }
+}
+.palabraStartUp h1{
+  word-wrap: break-word;
+white-space: pre-wrap;
+word-break: break-word;
+}
